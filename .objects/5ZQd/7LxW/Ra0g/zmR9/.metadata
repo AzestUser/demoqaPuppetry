@@ -1,0 +1,13 @@
+﻿{
+  "Id": "zmR9qmDWe0eWnSQdPGb_dg",
+  "Reference": "Bmbcj8NHjEqyXo5jYwHmyw/zmR9qmDWe0eWnSQdPGb_dg",
+  "ParentRef": "Bmbcj8NHjEqyXo5jYwHmyw/Ra0gXFKPDUG72XqsKZPtjg",
+  "Name": "Permanent Address",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2023-04-08T12:29:55.2082468Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-04-08T12:29:55.2082468Z"
+}

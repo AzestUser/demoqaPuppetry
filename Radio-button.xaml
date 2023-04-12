@@ -1,0 +1,205 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Radio_button" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="844,2596.8" sap2010:WorkflowViewState.IdRef="Radio_button_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Testing.Activities.TestData</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Radio_button" sap:VirtualizedContainerService.HintSize="608,2532" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome: DEMOQA" sap:VirtualizedContainerService.HintSize="545.6,2420" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="f33e51cd-cbaf-4150-8dba-a0e12db932a4" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence sap:VirtualizedContainerService.HintSize="512,2203.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NNavigateBrowser Action="Refresh" DisplayName="Navigate Browser - Refresh" sap:VirtualizedContainerService.HintSize="449.6,82.4" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_1" Version="V3" />
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,1967.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="first_rand_name" />
+                <Variable x:TypeArguments="x:String" Name="last_rand_name" />
+                <Variable x:TypeArguments="x:String" Name="res_field" />
+                <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="current_rand_address" />
+                <Variable x:TypeArguments="x:String" Name="res_field_check_box">
+                  <Variable.Default>
+                    <Literal x:TypeArguments="x:String">Yes</Literal>
+                  </Variable.Default>
+                </Variable>
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ClickType="Single" DisplayName="Click 'No_option'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://demoqa.com/radio-button" ContentHash="JyEOTI85VECgb2GifW9kyw" DesignTimeRectangle="576, 363, 34, 18" DesignTimeScaleFactor="0.75" ElementType="RadioButton" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='5' parentid='app' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='custom-control disabled custom-radio custom-control-inline' parentid='app' tag='DIV' aaname='' /&gt;" Guid="49a756a1-f313-49eb-9341-e53d304274b5" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACYAAAAWCAYAAACsR+4DAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFySURBVEhL7ZW/S8NAFMf7D2fM6NipW+ZuHbq5qRStRIgOtUggjaL4AyqFxh84qePX+14v7SWcl1yGkiEfeHB3fYUP79279NBSOjFXOjFXjGIvyxUuruY4PJriZBrJdXr/pH7dDwWx759fhELi+CzCw/Mrso8vLFeZXJ9H10LyUubsg4IYpaJZLIXKQcF5fCtzKknG8PwAk0ztFevTAMNEbSrYirF9rIpJKg/KMYe5VoRYfxDAG4RYqyPSSGx2s0By92gU0oNt5Z2zwoqNUsSjg4JIIzFeclbEJKMHc5hrRYkhC9H3x4jVcVmM4p6volRdZzEGp9VKLiagjL7OxaSUOid6HtmKsT35JNqC7WbbrWhiwBsm4r5xEHZiPNtVckOKoVbdwuXnM2GS0UMOyPun+tc/FMQE3ItWxU3ECJ8CPgkmIQafktrPhS4mYOs4qc6tJFUPbC0pYhDbDII+paxajcuvw89Pqz5JbaITc6UTcwP4A/DOkmWdmS10AAAAAElFTkSuQmCC" InformativeScreenshot="0db704407da19e474442cbdba086ca63.png" Reference="Bmbcj8NHjEqyXo5jYwHmyw/-v7t_zTTM0yVYsQz1FCruA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='DEMOQA' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="443, 333, 792, 48" FriendlyName="'Do you'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' parentid='app' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='' parentid='app' tag='DIV' aaname='' check:innerText='Do you like the site?&amp;#xA;Yes&amp;#xA;Impressive&amp;#xA;No' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, Image" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NGetText DisplayName="Get Text 'result_field_impressive'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="f33e51cd-cbaf-4150-8dba-a0e12db932a4" Version="V3">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable Accuracy="0.74" BrowserURL="https://demoqa.com/radio-button" ContentHash="id6LA2CSakiSE0l7XPOhTw" DesignTimeRectangle="443, 348, 792, 18" DesignTimeScaleFactor="0.75" ElementType="Text" FriendlyName="'result_field_impressive'" FullSelectorArgument="&lt;webctrl tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='mt-3' aaname='You have selected ' check:innerText='You have selected Impressive' /&gt;" Guid="1536ccbe-db9d-4af5-bff8-ae644bf6b90c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAxwAAAAWCAYAAABKdJrzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAOWSURBVHhe7dtBchMxEIVhbsthuErOwIobsMmWVVYsU8Vu0BNq8dSjcRIndjnW/1U1eDRySxqz6MbJlw0AAAAALoSGAwAAAMDF9Ibj6zeCuHwAAABgLTQcxFUDAAAAa6HhIK4aAAAAWAsNB3HVAAAAwFpoOIirBgAAANbyv+H4Wf74s20PXiBq7LddvyOeSqofk/FbiIdf2/ZcYnbvknH0TB7L5/D4fT9+S/Gj/Ls455kBAABgLcM3HLnQVVH5UYXv3TYc72jKPnPDcW4AAABgLeOPVHnxXAre5/yNxzuChmMfNBwAAAC4d7vf4VARrGJX3248lWK6jqv5+DetGsa9KTnRpNTiWsV503O0eyEKfxXdPmdoCizP7sfAWmh+Zw2B8obInxsOnT0MjUhe16+LaBJmayh8T8r7moYjPod4RnrteWJenMHXjtxxr+aIZ5HP0ubO9j4bi33pXowphmc5WQMAAABr2TUctWAsxWRvHNRElPv+P+4qXOu17sW8mOvXFrti98S8WihrTswv0YvwND4UuBY9j0XP0a5jjucYGq0S/T062yTn4T7b9XCeeF1Ca/q1h+eI5qfOa3uIvdYcbe3IF++b3etrHT3DND6bG9GfU7r/0ucEAACAtewaDoWK5F50l79zQd8LVBXApcB8bcPhxbVfR0Ecomjuc5S3Fa95bjUpiFX45qZG+TKt1c8T70v0LHzOEKmwPrWGNzIx159JRG44/H3De2zt2f5ibr6n6x3l0XMuL4c8s7ESvq++J821/eyUewAAAFjLtOHwgvfSDUctTFuRqpgV217c5uL5ZGg/OlzLn/cQ4TmHs1vkwr9HGfP9H60xe//R3Gs0HKeeoe6Lr5vHfF/x2seO1gAAAMBaXm44WtHuRbgK2bj217UofWPDoSK1F6Z5LV2riPWcpaCVWaF+FLGWzjUrgr041n68gehxtK7Gbf7RGnWenSMK+Nk5zm04dvnt3rCno7N4pHPlsWFfb/icAAAAsJaXGw5FKx6DF8BROMvwux8pjhqO/i2ElPeqaPW1ZwW8rym+nwjlD7lg79pec0GuNV3se1i3vddzxr5na2i8NjON1uvPIMW5DUd9/koutm4+X4y5uobymbrObKxE3tdrPycAAACsZdpwEJ8vZk3FLQYAAADWQsNxJ0HDAQAAgFtEw3EnQcMBAACAW0TDQVw1AAAAsJbecAAAAADAR6PhAAAAAHAh2/YXbC0TwaacKbIAAAAASUVORK5CYII=" InformativeScreenshot="b1a08a8c617e527397deeccf76c9e22d.png" Reference="Bmbcj8NHjEqyXo5jYwHmyw/794audYQTUaeouiQ_Yw2Zw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='DEMOQA' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive" />
+                </uix:NGetText.Target>
+              </uix:NGetText>
+              <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="387.2,196" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_4" Operator="Contains" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                <uta:VerifyExpressionWithOperator.FirstExpression>
+                  <InArgument x:TypeArguments="x:String">[res_field_check_box]</InArgument>
+                </uta:VerifyExpressionWithOperator.FirstExpression>
+                <uta:VerifyExpressionWithOperator.SecondExpression>
+                  <InArgument x:TypeArguments="x:Object">[IsNothing(object)]</InArgument>
+                </uta:VerifyExpressionWithOperator.SecondExpression>
+              </uta:VerifyExpressionWithOperator>
+              <uix:NClick ClickType="Single" DisplayName="Click 'impressive_option'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://demoqa.com/radio-button" ContentHash="L_LHBXNcXUKYNFbNaIpoCQ" DesignTimeRectangle="489, 362, 76, 20" DesignTimeScaleFactor="1" ElementType="RadioButton" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='4' parentid='app' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='custom-control custom-radio custom-control-inline' parentid='app' tag='DIV' aaname='' /&gt;" Guid="a459f817-1fc8-4176-b3a2-cd93f96841f5" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAE4AAAAWCAYAAABud6qHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAH1SURBVFhH7ZfBSgMxEIZ9loUe+lrtoW9SaN+ksHgTvOhBEC/LLl4UPAgiWGgFT+px3H+SSZOYzbYRakvzQSGZpMnsZ6ZZzyiTRBaXSBaXSBaXSBaXSFDcy+sb3dzVdH5xRZfXt9x+fHrWoxngiPv8+mZJkLV+/zAxtCWOfsYTBznV/YPuuUAYTh3m9LEqJzQq17p3mCDHYtbo3u4YcVKeMeREYm6MYxD3V4w4nLQ+IUDKNsZJidv29wtzMDeGLU61G1qMh1QMhipezbmNz7TiaUTLkkbjkmqUUMfYYob4nPjPhpieZ2ItXIIS16XYFUMuPGaXrN5rJW35nrUH2FkcwG0bQ5KSdjGY0GKJXkNTK3kW6CVpTir3XUm+SP4ewDq8JtZ3HzAcs3N0x028cw+FEYfyk5s0Bsq56wIRfHFGBq3bkycSW+zk/ERb6vaEsazQQ5iToD88jvWlLYRibl5mH56rJXbuoXAuh74SBNsI3os4u7x8MB8P6pegFXPykvXsdXv2MOIApMRedHHS+i4GkCzOlLT0rVK1xflzg8TL9ndec5rO/P2793DEyesGTl7oBXgbaSBZHJLXl8jmd1HG3NPol5LaA2I2MVV+oZifl+r75RzeQ+GIE+RFd6//coXkHDBBcf9CFpdIFncaZHGJZHFJEP0AbCdsXfulSQEAAAAASUVORK5CYII=" InformativeScreenshot="13bc8b5f848012a2ee808f5319541ad0.png" Reference="Bmbcj8NHjEqyXo5jYwHmyw/tm0caP0itUSSiaqxLzRKiA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='DEMOQA' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NGetText DisplayName="Get Text 'result_field_impressive'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="f33e51cd-cbaf-4150-8dba-a0e12db932a4" TextString="[res_field_check_box]" Version="V3">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable Accuracy="0.74" BrowserURL="https://demoqa.com/radio-button" ContentHash="id6LA2CSakiSE0l7XPOhTw" DesignTimeRectangle="443, 348, 792, 18" DesignTimeScaleFactor="0.75" ElementType="Text" FriendlyName="'result_field_impressive'" FullSelectorArgument="&lt;webctrl tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='mt-3' aaname='You have selected ' check:innerText='You have selected Impressive' /&gt;" Guid="1536ccbe-db9d-4af5-bff8-ae644bf6b90c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAxwAAAAWCAYAAABKdJrzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAOWSURBVHhe7dtBchMxEIVhbsthuErOwIobsMmWVVYsU8Vu0BNq8dSjcRIndjnW/1U1eDRySxqz6MbJlw0AAAAALoSGAwAAAMDF9Ibj6zeCuHwAAABgLTQcxFUDAAAAa6HhIK4aAAAAWAsNB3HVAAAAwFpoOIirBgAAANbyv+H4Wf74s20PXiBq7LddvyOeSqofk/FbiIdf2/ZcYnbvknH0TB7L5/D4fT9+S/Gj/Ls455kBAABgLcM3HLnQVVH5UYXv3TYc72jKPnPDcW4AAABgLeOPVHnxXAre5/yNxzuChmMfNBwAAAC4d7vf4VARrGJX3248lWK6jqv5+DetGsa9KTnRpNTiWsV503O0eyEKfxXdPmdoCizP7sfAWmh+Zw2B8obInxsOnT0MjUhe16+LaBJmayh8T8r7moYjPod4RnrteWJenMHXjtxxr+aIZ5HP0ubO9j4bi33pXowphmc5WQMAAABr2TUctWAsxWRvHNRElPv+P+4qXOu17sW8mOvXFrti98S8WihrTswv0YvwND4UuBY9j0XP0a5jjucYGq0S/T062yTn4T7b9XCeeF1Ca/q1h+eI5qfOa3uIvdYcbe3IF++b3etrHT3DND6bG9GfU7r/0ucEAACAtewaDoWK5F50l79zQd8LVBXApcB8bcPhxbVfR0Ecomjuc5S3Fa95bjUpiFX45qZG+TKt1c8T70v0LHzOEKmwPrWGNzIx159JRG44/H3De2zt2f5ibr6n6x3l0XMuL4c8s7ESvq++J821/eyUewAAAFjLtOHwgvfSDUctTFuRqpgV217c5uL5ZGg/OlzLn/cQ4TmHs1vkwr9HGfP9H60xe//R3Gs0HKeeoe6Lr5vHfF/x2seO1gAAAMBaXm44WtHuRbgK2bj217UofWPDoSK1F6Z5LV2riPWcpaCVWaF+FLGWzjUrgr041n68gehxtK7Gbf7RGnWenSMK+Nk5zm04dvnt3rCno7N4pHPlsWFfb/icAAAAsJaXGw5FKx6DF8BROMvwux8pjhqO/i2ElPeqaPW1ZwW8rym+nwjlD7lg79pec0GuNV3se1i3vddzxr5na2i8NjON1uvPIMW5DUd9/koutm4+X4y5uobymbrObKxE3tdrPycAAACsZdpwEJ8vZk3FLQYAAADWQsNxJ0HDAQAAgFtEw3EnQcMBAACAW0TDQVw1AAAAsJbecAAAAADAR6PhAAAAAHAh2/YXbC0TwaacKbIAAAAASUVORK5CYII=" InformativeScreenshot="b1a08a8c617e527397deeccf76c9e22d.png" Reference="Bmbcj8NHjEqyXo5jYwHmyw/794audYQTUaeouiQ_Yw2Zw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='DEMOQA' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive" />
+                </uix:NGetText.Target>
+              </uix:NGetText>
+              <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="387.2,196" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_2" Operator="Contains" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                <uta:VerifyExpressionWithOperator.FirstExpression>
+                  <InArgument x:TypeArguments="x:String">[res_field_check_box]</InArgument>
+                </uta:VerifyExpressionWithOperator.FirstExpression>
+                <uta:VerifyExpressionWithOperator.SecondExpression>
+                  <InArgument x:TypeArguments="x:String">["Impressive"]</InArgument>
+                </uta:VerifyExpressionWithOperator.SecondExpression>
+              </uta:VerifyExpressionWithOperator>
+              <uix:NClick ClickType="Single" DisplayName="Click 'Yes_option'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://demoqa.com/radio-button" ContentHash="esewtURpkkqMsIpJRi7Q7Q" DesignTimeRectangle="441, 361, 39, 22" DesignTimeScaleFactor="1" ElementType="RadioButton" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' parentid='app' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='custom-control custom-radio custom-control-inline' parentid='app' tag='DIV' aaname='' /&gt;" Guid="255a52b6-88a7-4542-8c48-50dadfcb7e7e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACcAAAAWCAYAAABDhYU9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFcSURBVEhL7ZWxasMwEIbzLIEMeS1nyJsE7DcJmG6FLOkQCF2MQ5cWOhRKoYE40CntePEv6y4+x5FUD8GDPxDozgL9+k8nj6jHDOK6MojrSqu4z69v2jzn9PC4ptXT1szf3j/s1/uhxJ1+/4wQCCqOP5LDnPOI74USBwHZy6uNNBAF97DGSZbQeJbSwYYG5OKdDcIRcVxKF+ws1t6moOVsTsu9DUvyWMehiDg45t60gkvspO7UPqWo6WQgIi70PmEN1rrZ0WJSuZXHU1pkNg2hkymNzUiIj3hI5zZXjlr5/y0OoIt9YMMoTi6uNR0Ud3GQi9A6Ig6l4g51gdLfahoNNq25BjHimh1GLO4ozzWqIfzlCj/EVWP4OpZL3lZWgI1djy0c8zaD0BBnNvd1rS6xEsdPBRxse4TDhYHrJ6VZ2igtymRVfs7JNShR4hh+bHv1++obg7iuDOK6QXQGgvvbv/qbIOIAAAAASUVORK5CYII=" InformativeScreenshot="2be60852e466ddaf059bc72df071fcb7.png" Reference="Bmbcj8NHjEqyXo5jYwHmyw/4oaXESn76UG3sgWv448huQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='DEMOQA' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="443, 333, 792, 18" ElementType="Text" FriendlyName="'Do you like the site?'" FullSelectorArgument="&lt;webctrl class='mb-3' parentid='app' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='mb-3' parentid='app' tag='DIV' type='' aaname='Do you like the site?' check:innerText='Do you like the site?' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAxwAAAAWCAYAAABKdJrzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAKsSURBVHhe7dtdTuMwFAbQWQsSD2wLHthJpbITpC4FwTKQYBGZ2Pmp4zppUGNNmZ4jRUqUOLkpL/eLzZ8GAACgEoEDAACoRuAAAACqETgAAIBqBA4AAKAagQMAAKhG4AAAAKqZBI6vw3Nzd/+QbM/N62d/8mp8NLv7l+Y97H4emsd0/+nQfIX9DbzvH5rdW3+wlbTe1cL7XvPfAwAA5p0EjsfDd3/Uig1yhcb7IkngSF0aON5emrv9R39QKXBMfDevTysCxNvheE2occNQBQAAtS0HjmDjmYPL3VjgSGU1AgDAtTsfOPLGODS9i0t8wvXTZj0u1Roa5bnxeTM921xnS6qGkJHvt/cf3yV9ZimUFGrqAkeynGlSS/eOw5hyMCkshRprnI4v/jZ5nZcGKgAA+Ad+FjhiQ5zMLsTGvjDbMAkLK8dPxrTy49G5wBHOzweZ8ju2sutC4DjWmt4zeZ8oqSdxfrYou89ineVnAADAtVsZOLpmN5zPv+aXlx6VQ8Hi+E0CR1t/GjZa4ZnjrMGwle5bCBxprcfj8Pzsftkzo3C/9tzkfRcCx2KdYVzxtwAAgOt2PnCExnlNYMgM16ZjFsdvETjaxv+xsJyrOKOR+1HgWD/bEMadLqkKTgPHqjoBAOAXWQ4c8St98vU+HifNdmzyZ5rv+FX+MM6OREvjs3vFRv2ngSPudzMQY1jInzlndeAIQSH5/5AVxt81rbe0pGquzuy3AQCA3+IkcEyX9Zw2udNrkob5RLkxXxrfzQZ0224/DQBH5wJH0IWOYXz+XmmQOOrH9DXNB45guLbfxuceTZ5ZrDG55lydAgcAAL/UJHBsK/uCDwAA3Jx6gSMsESp8+QcAAG5HhcDRLaVa9X8TAADAf63ikioAAODWCRwAAEA1AgcAAFBJ0/wFciKFwkVpDTMAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NGetText DisplayName="Get Text 'result_field_Yes'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="f33e51cd-cbaf-4150-8dba-a0e12db932a4" TextString="[res_field_check_box]" Version="V3">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable BrowserURL="https://demoqa.com/radio-button" ContentHash="tNLW58OTe0GzJ9utxLsmwA" DesignTimeRectangle="443, 348, 792, 18" DesignTimeScaleFactor="0.75" ElementType="Text" FriendlyName="'result_field_Yes'" FullSelectorArgument="&lt;webctrl tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='mt-3' aaname='You have selected ' check:innerText='You have selected Yes' /&gt;" Guid="822cca11-9b78-415e-a3b4-7d20798d3beb" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAxwAAAAWCAYAAABKdJrzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAANgSURBVHhe7dw9btRAGAZgzoJEwQ3ouUlSUKXhEJE25d4i0hZAnQNQoFAgcYUgyB2GzI/tmbGdKAGjDXoeyRIzO55Zm+Z7M/a+CAAAABsROAAAgM0IHAAAwGYEDgAAYDMCBwAAsBmBAwAA2IzAAQAAbGYKHF8uwsvTQ/hZmkns230tjT/xNZy/ugjXpXVsfh7ehZPDr9L6V5bvybert+H955vSymLf/ntpAADAM1LtcPwKl6fvwmVV617v2vbT/ceB48mhbOWe/PgQ3n/8EG5L8+5/IeybNgAAPB/tI1V18XxzCCf9jseTCRxz6/ek3tG4/Xw22/EAAIDnonuHIxbBeVfjevc6nH8p3TF8vHodXpaj6a9DyWpIKcV1LM77OdJn09y58I+7LfWYLhRU88weAyvi+HHMGAjyvEP/MH8fOOK1D2OaINKvW7fLfVtbI6q/08nhsB7Cvu/Dm7SrcR32l/vwrXTHIPLmMh9TCIljhv6z8OlH6QYAgCMwe2k8Fd+7iyk4pLBRP1o1hZLHBY67Qnso/GOhvjquFOFxTBMUyppN/zwsZNU8o/6RsWlMPUcTtOpz0n1YCAhr3zPprqc6P4ePhfmSm/Dp41nYX027G+17HPnzGC7sgAAAcMxmgWMIB2PRfVco9wX9WKA/KnDUxXXbzsX3sCswFOzVmDhvKerbseWoAkhWdhma75Kvqz03rzUFjnJeNy7ei2lMpwkc969R73bM70kn7nKMuxsxYEy7G8ORAkga56VyAACO00Lg6P5Kv3HgSAFiZYdg2G2odx1WC/8l8fvEoj/Nv17gT3P2OxSTduejMgscy2vMz38gcDQvj087Gmvy41YeqQIA4Lg8HDhS0V4X4bFQHtr1v0t4eGTgiIX4GCD6tWJ7dxHO6zm7R5MeNqyVdy+WwkodYuL3me+Y3Flbtwkc62ukcdV1pHt133V0v1aVAsXV/Vft8SoAAI7Nw4EjSsX29JhQ/Zf6XDjn/ubdj8Z64Bh3IeJxGsNFvfZyAV+vGY/5zkOcf+nztn8IAHXgGNYcx1Tfu1l3vM5hzjqEDefW40qYKf33vjQezX4et3+sKj9uFUPG2OfncwEAODILgQMAAODvEDgAAIDNCBwAAMBmBA4AAGAzAgcAALAZgQMAANhICL8Bej1hA8gv06wAAAAASUVORK5CYII=" InformativeScreenshot="74a33a7e9471f5ae04e13d95a5037ce6.png" Reference="Bmbcj8NHjEqyXo5jYwHmyw/HYdooKLypUibzYkQZLx7VQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='DEMOQA' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive" />
+                </uix:NGetText.Target>
+              </uix:NGetText>
+              <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="387.2,196" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_3" Operator="Contains" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                <uta:VerifyExpressionWithOperator.FirstExpression>
+                  <InArgument x:TypeArguments="x:String">[res_field_check_box]</InArgument>
+                </uta:VerifyExpressionWithOperator.FirstExpression>
+                <uta:VerifyExpressionWithOperator.SecondExpression>
+                  <InArgument x:TypeArguments="x:String">["Yes"]</InArgument>
+                </uta:VerifyExpressionWithOperator.SecondExpression>
+              </uta:VerifyExpressionWithOperator>
+            </Sequence>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="VTXn0-1EDEaIA0lZvmcEJA" IconBase64="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" InformativeScreenshot="d5ea1e073ddd94c9b78dc8a1b381287d.jpg" Reference="Bmbcj8NHjEqyXo5jYwHmyw/Ra0gXFKPDUG72XqsKZPtjg" Selector="&lt;html app='chrome.exe' title='DEMOQA' /&gt;" Title="DEMOQA" Url="https://demoqa.com/radio-button" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
