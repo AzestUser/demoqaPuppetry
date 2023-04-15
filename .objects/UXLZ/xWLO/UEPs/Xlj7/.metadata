@@ -1,0 +1,16 @@
+﻿{
+  "Id": "Xlj7lxNfj0mo_kuMu14hhg",
+  "Reference": "Bmbcj8NHjEqyXo5jYwHmyw/Xlj7lxNfj0mo_kuMu14hhg",
+  "ParentRef": "Bmbcj8NHjEqyXo5jYwHmyw/UEPsis0ImEyVbq9l0O06bw",
+  "Name": "double click",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2023-04-15T15:03:37.6199716Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-04-15T16:30:46.4961926Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Id": "OEUpq7-4qEOtdLYSAs3KwA",
+  "Reference": "Bmbcj8NHjEqyXo5jYwHmyw/OEUpq7-4qEOtdLYSAs3KwA",
+  "ParentRef": "Bmbcj8NHjEqyXo5jYwHmyw/UEPsis0ImEyVbq9l0O06bw",
+  "Name": "right click",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2023-04-15T15:03:37.6593903Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-04-15T16:33:49.8966978Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

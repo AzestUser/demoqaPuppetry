@@ -1,0 +1,16 @@
+﻿{
+  "Id": "4oaXESn76UG3sgWv448huQ",
+  "Reference": "Bmbcj8NHjEqyXo5jYwHmyw/4oaXESn76UG3sgWv448huQ",
+  "ParentRef": "Bmbcj8NHjEqyXo5jYwHmyw/oaYKhBD2fUOV4yCzeN1q-g",
+  "Name": "Yes_option",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Created": "2023-04-15T17:03:07.6890107Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-04-15T17:03:07.6890107Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

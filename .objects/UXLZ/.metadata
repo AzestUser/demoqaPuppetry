@@ -1,0 +1,14 @@
+﻿{
+  "Id": "UXLZuTrL6Uqb7u0AMrhy2Q",
+  "Reference": "Bmbcj8NHjEqyXo5jYwHmyw/UXLZuTrL6Uqb7u0AMrhy2Q",
+  "Name": "Chrome: DEMOQA app",
+  "Type": "App",
+  "Created": "2023-04-15T15:03:37.341996Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-04-15T17:04:39.2802673Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Id": "HYdooKLypUibzYkQZLx7VQ",
+  "Reference": "Bmbcj8NHjEqyXo5jYwHmyw/HYdooKLypUibzYkQZLx7VQ",
+  "ParentRef": "Bmbcj8NHjEqyXo5jYwHmyw/oaYKhBD2fUOV4yCzeN1q-g",
+  "Name": "result_field_Yes",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2023-04-15T17:03:07.685196Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-04-15T17:03:07.685196Z"
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Id": "oCjr1NeFok-7-aNa7Ly_ug",
+  "Reference": "Bmbcj8NHjEqyXo5jYwHmyw/oCjr1NeFok-7-aNa7Ly_ug",
+  "ParentRef": "Bmbcj8NHjEqyXo5jYwHmyw/Ra0gXFKPDUG72XqsKZPtjg",
+  "Name": "INPUT userEmail",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2023-04-15T17:04:09.8901774Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-04-15T17:04:09.8901774Z"
+}

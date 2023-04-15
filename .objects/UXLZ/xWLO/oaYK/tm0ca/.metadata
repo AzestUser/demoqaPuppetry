@@ -1,0 +1,16 @@
+﻿{
+  "Id": "tm0caP0itUSSiaqxLzRKiA",
+  "Reference": "Bmbcj8NHjEqyXo5jYwHmyw/tm0caP0itUSSiaqxLzRKiA",
+  "ParentRef": "Bmbcj8NHjEqyXo5jYwHmyw/oaYKhBD2fUOV4yCzeN1q-g",
+  "Name": "impressive_option",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Created": "2023-04-15T17:03:07.6724344Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-04-15T17:03:07.6724344Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

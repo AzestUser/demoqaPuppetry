@@ -1,0 +1,15 @@
+﻿{
+  "Id": "UEPsis0ImEyVbq9l0O06bw",
+  "Reference": "Bmbcj8NHjEqyXo5jYwHmyw/UEPsis0ImEyVbq9l0O06bw",
+  "ParentRef": "Bmbcj8NHjEqyXo5jYwHmyw/xWLOCADOOkCxutaewtz0yg",
+  "Name": "Chrome: DEMOQA_buttons",
+  "Type": "Screen",
+  "Created": "2023-04-15T15:03:37.3568434Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-04-15T17:02:24.8702964Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Id": "pxmGhTasIE-irYMlwHzJ-A",
+  "Reference": "Bmbcj8NHjEqyXo5jYwHmyw/pxmGhTasIE-irYMlwHzJ-A",
+  "ParentRef": "Bmbcj8NHjEqyXo5jYwHmyw/Ra0gXFKPDUG72XqsKZPtjg",
+  "Name": "Text Box",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2023-04-15T17:04:09.9074354Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-04-15T17:04:09.9074354Z"
+}

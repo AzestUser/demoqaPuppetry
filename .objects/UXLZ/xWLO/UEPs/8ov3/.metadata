@@ -1,0 +1,13 @@
+﻿{
+  "Id": "8ov3xkYHikOxgvFim518IQ",
+  "Reference": "Bmbcj8NHjEqyXo5jYwHmyw/8ov3xkYHikOxgvFim518IQ",
+  "ParentRef": "Bmbcj8NHjEqyXo5jYwHmyw/UEPsis0ImEyVbq9l0O06bw",
+  "Name": "Double Click Me",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2023-04-15T15:03:37.4666193Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-04-15T15:03:37.4666193Z"
+}
